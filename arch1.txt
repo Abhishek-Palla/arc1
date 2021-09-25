@@ -1,0 +1,25 @@
+package problemArchives;
+import java.util.*;
+
+public class Multiples {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		mul(3,5);
+		
+
+	}
+	
+	public static void mul(int x,int y) {
+		int count =0;
+		for(int i=0;i<1000;i++) {
+			if(i%3 ==0 || i%5 ==0) {
+				count =count+i;
+				
+			}
+		}
+		System.out.println(count);
+	}
+	
+
+}
