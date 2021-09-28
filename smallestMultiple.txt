@@ -1,0 +1,27 @@
+package problemArchives;
+
+public class SumSquareDifference {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int num =100;
+		int ss = (num*(num+1)*(2*num+1))/6;
+		System.out.println(ss);
+		int sum =0;
+		
+		for(int i =0;i<=num;i++) {
+			sum = sum+i;
+			
+		}
+		int sqr = sum*sum;
+		System.out.println(sqr);
+		
+		int result = sqr - ss;
+		System.out.println(result);
+		
+		
+		
+	}
+
+}
