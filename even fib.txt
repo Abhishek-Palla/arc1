@@ -1,0 +1,27 @@
+package problemArchives;
+
+public class EvenFib {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num1 =0;
+		int num2 =1;
+		int evenSum =0;
+		int sum =0 ;
+		while(sum<4000000) {
+			sum = num1 + num2;
+			num1 = num2;
+			num2 = sum;
+			if(sum%2 == 0) {
+				evenSum = evenSum + sum;
+				
+				
+			}
+			
+		}
+		System.out.println(evenSum);
+		
+	}
+
+
+}
